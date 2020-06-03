@@ -29,7 +29,7 @@ public class MapSearchActivity extends AppCompatActivity {
             switch (view.getId()){
                 case R.id.searchmapbtn2 :
                     try {
-                        String mapSite = mapsite.getText().toString();
+                    String mapSite = mapsite.getText().toString();
                         Intent intent = new Intent (Intent.ACTION_VIEW,Uri.parse("https://www.google.com/maps/place/" +mapSite));
                         startActivity(intent);
                     }catch (Exception e) {e.getMessage();}

@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".MapSearchActivity"></activity>
-        <activity android:name=".ReportActivity" />
+
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
@@ -22,17 +22,17 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".HomeActivity" />
         <activity android:name=".Join" />
         <activity android:name=".Write" />
         <activity android:name=".Find" />
         <activity android:name=".MapActivity" />
         <activity android:name=".ReportActivity" />
-        <activity android:name=".MapSearchActivity" />
+
     </application>
 
 </manifest>
