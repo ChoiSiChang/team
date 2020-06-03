@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     EditText userId, userPwd;
     Button loginBtn, joinBtn;
     SHA256 sha256;
-    static final String ip ="172.17.58.205";
+    static final String ip ="192.168.43.87";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
