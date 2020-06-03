@@ -34,4 +34,10 @@
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:text="신고하기" />
+
+    <Button
+        android:id="@+id/mapsearchbtn"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="맵 검색" />
 </LinearLayout>
