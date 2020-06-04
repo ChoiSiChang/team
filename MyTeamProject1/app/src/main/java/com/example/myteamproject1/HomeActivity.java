@@ -33,6 +33,7 @@ public class HomeActivity extends Activity {
     Button MapBtn1;
     Button ReportBtn1;
     Button MapSearch1;
+    Button Thread1;
     ListView listview = null ;
 
     @Override
@@ -50,6 +51,9 @@ public class HomeActivity extends Activity {
         ReportBtn1.setOnClickListener(btnListener3);
         MapSearch1 = (Button)findViewById((R.id.mapsearchbtn));
         MapSearch1.setOnClickListener(btnListener4);
+        Thread1 = (Button)findViewById(R.id.writethreadbtn);
+        Thread1.setOnClickListener(btnListener5);
+
         HomeConn task = new HomeConn();
         // LinearLayout linearLayout = (LinearLayout) findViewById(R.id.homelistView);
         //Button button= new AppCompatButton(this);
@@ -141,6 +145,24 @@ public class HomeActivity extends Activity {
                     try {
                         Intent intent = new Intent(HomeActivity.this, MapSearchActivity.class);
                         startActivity(intent);
+                    }catch (Exception e) {e.getMessage();}
+                    break;
+            }
+        }
+    };
+
+    View.OnClickListener btnListener5 = new View.OnClickListener() {
+
+
+
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()){
+                case R.id.writethreadbtn :
+                    try {
+                        Intent intent = new Intent(HomeActivity.this, WriteActivity.class);
+                        startActivity(intent);
+                        finish();
                     }catch (Exception e) {e.getMessage();}
                     break;
             }
