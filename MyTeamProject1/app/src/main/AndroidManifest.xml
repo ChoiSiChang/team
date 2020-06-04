@@ -31,7 +31,12 @@
         <activity android:name=".Write" />
         <activity android:name=".Find" />
         <activity android:name=".MapActivity" />
+
         <activity android:name=".ReportActivity" />
+
+        <activity android:name=".Dae_MainActivity" />
+        <activity android:name=".Drawerlayout"></activity>
+        <activity android:name=".WriteActivity"></activity>
 
     </application>
 
