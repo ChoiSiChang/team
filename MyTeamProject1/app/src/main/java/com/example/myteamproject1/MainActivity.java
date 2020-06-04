@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button loginBtn, joinBtn;
     SHA256 sha256;
 
-    static final String ip ="자신의 IP"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
+    static final String ip ="192.168.34.147"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 //String ip="172.17.83.56";
                 URL url = new URL("http://"+ip+":8080/mycap_team/index.jsp");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();//url커넥션 객체 생성
+                conn.setConnectTimeout(5000);
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded"); //요청 속성 설정
                 conn.setRequestMethod("POST");//데이터를 POST 방식으로 전송합니다.
                 OutputStreamWriter osw = new OutputStreamWriter(conn.getOutputStream());// 아웃풋스트림라이터 객체 생성
