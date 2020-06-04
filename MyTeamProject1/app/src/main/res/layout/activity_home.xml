@@ -40,10 +40,4 @@
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:text="맵 검색" />
-
-    <Button
-        android:id="@+id/writethreadbtn"
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:text="스레드 쓰기" />
 </LinearLayout>
