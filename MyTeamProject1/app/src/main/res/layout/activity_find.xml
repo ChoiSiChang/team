@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbebe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/findid"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputtel1"
+                android:layout_width="220dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#FCF9F9"
+                android:backgroundTint="#FCF9F9"
+                android:ems="10"
+                android:hint="@string/hint4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/inputbirth1"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:background="#FCF9F9"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/hint3"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="235dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="#ff9999"
+                android:onClick="clickFindID"
+                android:text="확인"
+                android:textSize="18pt" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="@string/findpwd"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputid1"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:background="#FCF9F9"
+                android:backgroundTint="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/hint1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/inputtel2"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#FCF9F9"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/hint4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/inputbirth2"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#FCF9F9"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="@string/hint3"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="235dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:background="#ff9999"
+                android:layout_marginBottom="5dp"
+                android:onClick="clickFindPWD"
+                android:layout_marginTop="12dp"
+                android:textSize="18pt"
+                android:text="확인" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="16pt"
+                android:background="#f07878"
+                android:onClick="clickBack"
+                android:text="이전" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

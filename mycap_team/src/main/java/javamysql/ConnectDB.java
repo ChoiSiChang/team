@@ -28,7 +28,11 @@ public class ConnectDB {
     
 String jdbcUrl = "jdbc:mysql://34.64.100.137:3306/mytestlogin?serverTimezone=Asia/Seoul"; 
 String dbId = "root"; // MySQL ê³„ì •
+<<<<<<< HEAD
 String dbPw = "choi123"; // ë¹„ë?ë²ˆí˜¸
+=======
+String dbPw = "choi123"; // ë¹„ë°€ë²ˆí˜¸
+>>>>>>> master
 Connection conn = null;
 PreparedStatement pstmt = null;
 PreparedStatement pstmt2 = null;
@@ -46,6 +50,7 @@ ArrayList<String> contextList;
 
 public String joindb(String id, String pwd, String name, String tel, String birth) {
     try{
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸1");
         Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ?“œ?¼?´ë²? ? ?ž¬
         conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°? ?“¤?–´ê°?ë©´ë¨ db?—°ê²?
@@ -55,12 +60,28 @@ public String joindb(String id, String pwd, String name, String tel, String birt
         rs = pstmt.executeQuery(); //ì¿¼ë¦¬ë¬? ?‹¤?–‰ 
         if(rs.next()){
             if (rs.getString("id").equals(id)) { // ?´ë¯? ?•„?´?””ê°? ?žˆ?Š” ê²½ìš°
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸1");
+        Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ë“œë¼ì´ë²„ ì ìž¬
+        conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°€ ë“¤ì–´ê°€ë©´ë¨ dbì—°ê²°
+        sql = "select id from login where id = ?";// ì¡°íšŒ 
+        pstmt = conn.prepareStatement(sql);  //preparedstatementì— sqlë¬¸ ë§¤ê°œë³€ìˆ˜ë¡œ ë„£ìŒ
+        pstmt.setString(1, id); // ? íŒŒë¼ë¯¸í„° ì„¤ì •
+        rs = pstmt.executeQuery(); //ì¿¼ë¦¬ë¬¸ ì‹¤í–‰ 
+        if(rs.next()){
+            if (rs.getString("id").equals(id)) { // ì´ë¯¸ ì•„ì´ë””ê°€ ìžˆëŠ” ê²½ìš°
+>>>>>>> master
 		returns = "id";
 	    } 
         }
         else{
+<<<<<<< HEAD
             //ê°’ì´ ?—†?–´?„œ ê°??Š¥?•œ ê²½ìš°
             sql2 = "insert into login values(?,?,?,?,?)"; // ?‚½?ž…
+=======
+            //ê°’ì´ ì—†ì–´ì„œ ê°€ëŠ¥í•œ ê²½ìš°
+            sql2 = "insert into login values(?,?,?,?,?)"; // ì‚½ìž…
+>>>>>>> master
             pstmt2 = conn.prepareStatement(sql2);
             pstmt2.setString(1, id);
             pstmt2.setString(2, pwd);
@@ -79,7 +100,11 @@ public String joindb(String id, String pwd, String name, String tel, String birt
         if (conn != null)try {conn.close();} catch (SQLException ex) {}
 	if (pstmt2 != null)try {pstmt2.close();} catch (SQLException ex) {}
 	if (rs != null)try {rs.close();} catch (SQLException ex) {}
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸2");
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸2");
+>>>>>>> master
     }
     return returns;
 }
@@ -95,6 +120,7 @@ public String logindb(String id, String pwd){
         rs = pstmt.executeQuery();
         if (rs.next()){
             if (rs.getString("id").equals(id) && rs.getString("pwd").equals(pwd)){
+<<<<<<< HEAD
                 returns2 = "true";// ë¡œê·¸?¸ ê°??Š¥
             }
             else{
@@ -102,6 +128,15 @@ public String logindb(String id, String pwd){
             }
         } else {
             returns2 = "noId"; // ?•„?´?”” ?˜?Š” ë¹„ë?ë²ˆí˜¸ ì¡´ìž¬ X
+=======
+                returns2 = "true";// ë¡œê·¸ì¸ ê°€ëŠ¥
+            }
+            else{
+                returns2 = "false"; //ë¡œê·¸ì¸ ì‹¤íŒ¨
+            }
+        } else {
+            returns2 = "noId"; // ì•„ì´ë”” ë˜ëŠ” ë¹„ë°€ë²ˆí˜¸ ì¡´ìž¬ X
+>>>>>>> master
         }
         
     }catch(Exception e){
@@ -116,11 +151,19 @@ public String logindb(String id, String pwd){
 
 public String writepost(String id, String date, String title, String context) {
     try{
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸1");
         Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ?“œ?¼?´ë²? ? ?ž¬
         conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°? ?“¤?–´ê°?ë©´ë¨ db?—°ê²?
       
             sql3 = "insert into writepost values(?,?,?,?)"; // ?‚½?ž…
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸1");
+        Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ë“œë¼ì´ë²„ ì ìž¬
+        conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°€ ë“¤ì–´ê°€ë©´ë¨ dbì—°ê²°
+      
+            sql3 = "insert into writepost values(?,?,?,?)"; // ì‚½ìž…
+>>>>>>> master
             pstmt = conn.prepareStatement(sql3);
             pstmt.setString(1, id);
             pstmt.setString(2, date);
@@ -136,18 +179,30 @@ public String writepost(String id, String date, String title, String context) {
         if (pstmt != null)try {pstmt.close();} catch (SQLException ex) {}
         if (conn != null)try {conn.close();} catch (SQLException ex) {}
 	if (rs != null)try {rs.close();} catch (SQLException ex) {}
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸2");
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸2");
+>>>>>>> master
     }
     return returns3;
 }
 
 public String getwritecount() {
     try{
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸1");
         Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ?“œ?¼?´ë²? ? ?ž¬
         conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°? ?“¤?–´ê°?ë©´ë¨ db?—°ê²?
       
             sql3 = "select * from writepost"; // ?…Œ?´ë¸”ì— ?žˆ?Š” ì»¬ëŸ¼ ê°??ˆ˜
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸1");
+        Class.forName("com.mysql.cj.jdbc.Driver"); // JDBC ë“œë¼ì´ë²„ ì ìž¬
+        conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw); //  jdbcUrl, dbId,  dbPwê°€ ë“¤ì–´ê°€ë©´ë¨ dbì—°ê²°
+      
+            sql3 = "select * from writepost"; // í…Œì´ë¸”ì— ìžˆëŠ” ì»¬ëŸ¼ ê°¯ìˆ˜
+>>>>>>> master
             pstmt = conn.prepareStatement(sql3);
             rs = pstmt.executeQuery();
             rsmd = rs.getMetaData();
@@ -160,7 +215,11 @@ public String getwritecount() {
         if (pstmt != null)try {pstmt.close();} catch (SQLException ex) {}
         if (conn != null)try {conn.close();} catch (SQLException ex) {}
 	if (rs != null)try {rs.close();} catch (SQLException ex) {}
+<<<<<<< HEAD
         System.out.println("?…Œ?Š¤?Š¸2");
+=======
+        System.out.println("í…ŒìŠ¤íŠ¸2");
+>>>>>>> master
     }
     return returns3;
 }
@@ -175,10 +234,17 @@ public String findid(String tel, String birth){
 	pstmt.setString(2, birth);
         rs = pstmt.executeQuery();
         if (rs.next()){
+<<<<<<< HEAD
                 returns2 = "your ID : "+rs.getString("id");// ?„±ê³?
             }
             else{
                 returns2 = "false"; //?‹¤?Œ¨
+=======
+                returns2 = "your ID : "+rs.getString("id");// ì„±ê³µ
+            }
+            else{
+                returns2 = "false"; //ì‹¤íŒ¨
+>>>>>>> master
             }
         
         
@@ -203,10 +269,17 @@ public String findpwd(String id,String tel, String birth){
 	pstmt.setString(3, birth);
         rs = pstmt.executeQuery();
         if (rs.next()){
+<<<<<<< HEAD
                 returns2 = "ok";// ?„±ê³?      
            
         } else{
                 returns2 = "false"; //?‹¤?Œ¨
+=======
+                returns2 = "ok";// ì„±ê³µ      
+           
+        } else{
+                returns2 = "false"; //ì‹¤íŒ¨
+>>>>>>> master
             }
         
     }catch(Exception e){
@@ -230,7 +303,11 @@ public String changepwd(String id,String pwd){
         pstmt.executeUpdate();
        
         out.print("Successful change!");
+<<<<<<< HEAD
         String returns3 = "Successful change!";// ?„±ê³?
+=======
+        String returns3 = "Successful change!";// ì„±ê³µ
+>>>>>>> master
 
     }catch(Exception e){
       e.getMessage();
