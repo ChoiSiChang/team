@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button loginBtn, joinBtn;
     SHA256 sha256;
 
-    static final String ip ="192.168.34.147"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
+    static final String ip ="192.168.35.60"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

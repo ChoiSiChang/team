@@ -37,7 +37,7 @@
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="ow7zpezuez" />
 
-        <activity android:name="com.example.myapplication.Dae_MainActivity" >
+        <activity android:name="com.example.myapplication.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +46,7 @@
         </activity>
         <activity android:name="com.example.myapplication.Drawerlayout" />
         <activity android:name="com.example.myapplication.WriteActivity" />
-        <activity android:name="com.example.myapplication.MainActivity" />
+        <activity android:name="com.example.myapplication.Dae_MainActivity" />
         <activity android:name="com.example.myapplication.MapSearchActivity" />
         <activity android:name="com.example.myapplication.HomeActivity" />
         <activity android:name="com.example.myapplication.Join" />

@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
     SHA256 sha256;
 
     //학교 와이파이는 3306 포트가 막혀있다고합니다
-    static final String ip ="192.168.0.19"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
+    static final String ip ="192.168.35.30"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
+    static String id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             String str;
                 //String ip="172.17.83.56";
                 //Url 주소 = ip:8080 뒤에 경로를 JSP가동중... 경로에 맞게 바꿔보세요
-                URL url = new URL("http://"+ip+":8080/mycap_team_war_exploded/");
+                URL url = new URL("http://"+ip+":8080/mycap_team/index.jsp");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();//url커넥션 객체 생성
                 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded"); //요청 속성 설정
                 conn.setRequestMethod("POST");//데이터를 POST 방식으로 전송합니다.
@@ -138,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                         if(result.equals("true")) {
                             Toast.makeText(MainActivity.this,"로그인 성공",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
-                            intent.putExtra("id",loginid);
+                            id=loginid;
                            //intent.putExtra("pwd",loginpwd);
                             startActivity(intent);
                             finish();

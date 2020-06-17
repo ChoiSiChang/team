@@ -1575,7 +1575,6 @@ id work_list
 id wrap
 id wrap_content
 id write_contents_text
-id write_name_text
 id write_title_text
 id write_upload_button
 id writebutton1

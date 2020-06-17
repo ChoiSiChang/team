@@ -42,7 +42,7 @@ public class Dae_MainActivity extends AppCompatActivity {
 
     private EditText mMainSearchAreaText;
     private String id;  //파이어베이스 primary key 설정용
-
+    String id2;
     //리사이클러뷰 = 게시판 나오는 레이아웃
     private RecyclerView mMainRecyclerview;
     RecyclerView.LayoutManager layoutManager;
@@ -60,6 +60,9 @@ public class Dae_MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dae_activity_main);
+
+        Intent intent = getIntent();
+        id2=MainActivity.id;
 
         //파이어스토어 싱글턴패턴
         mStore = FirebaseFirestore.getInstance();
@@ -103,7 +106,12 @@ public class Dae_MainActivity extends AppCompatActivity {
         mMainWriteButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Dae_MainActivity.this, WriteActivity.class));
+                Intent intent = new Intent(Dae_MainActivity.this, WriteActivity.class);
+                //Log.d("2차 홈액티비티 테스트",id);
+                intent.putExtra("id",id);
+                startActivity(intent);
+                //finish();
+
             }
         });
 
