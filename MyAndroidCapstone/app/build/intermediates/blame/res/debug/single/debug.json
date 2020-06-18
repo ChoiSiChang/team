@@ -1,154 +1,178 @@
 [
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hamburger.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_hamburger.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_calendar_today_black_18dp.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\baseline_calendar_today_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_changepwd.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\dialog_changepwd.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_refresh_24.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_baseline_refresh_24.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_changepwd.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\dialog_changepwd.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_find.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_slider.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\slider.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_backup_black_18dp.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\baseline_backup_black_18dp.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write2.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_write2.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_report.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_two.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\two.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_one.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\one.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_dae_activity_main.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\dae_activity_main.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_dae_activity_main.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\dae_activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_edit.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_find.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_find.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mapsearch.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_mapsearch.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_two.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\two.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_slider.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\slider.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mainicon.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable-v24\\mainicon.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_person.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drawerlayout.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_drawerlayout.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_backup_black_18dp.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\baseline_backup_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_main.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\item_main.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_report.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_report.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mapsearch.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_mapsearch.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_write.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_three.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\three.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write2.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_write2.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_calendar_today_black_18dp.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\baseline_calendar_today_black_18dp.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_one.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\one.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_join.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_join.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_join.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_join.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_write.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_write.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_edit.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hamburger.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_hamburger.xml"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_three.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\three.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_map.xml"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ChoiSiChang\\Documents\\GitHub\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_main.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\item_main.xml"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_refresh_24.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\drawable\\ic_baseline_refresh_24.xml"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drawerlayout.xml.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\layout\\activity_drawerlayout.xml"
+    },
+    {
+        "merged": "C:\\team\\MyAndroidCapstone\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\team\\MyAndroidCapstone\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

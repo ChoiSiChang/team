@@ -1162,6 +1162,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person
+drawable mainicon
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navermap_compass
@@ -1304,6 +1305,7 @@ id btn_send
 id button
 id button2
 id button3
+id button4
 id buttonPanel
 id cancel_action
 id center
@@ -1697,6 +1699,7 @@ layout select_dialog_singlechoice_material
 layout slider
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
