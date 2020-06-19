@@ -6,49 +6,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A1CDE1"
+    android:background="#ffbebe"
     android:orientation="vertical">
 
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:text="게시글 작성"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_save"
+                app:layout_constraintHorizontal_bias="0.678"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="right"
+                android:onClick="clickSave"
+                android:src="@drawable/ic_baseline_save_alt_24"
+                android:backgroundTint="@android:color/transparent"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="4"
-        android:background="#C5CAE9"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="160dp"
-            android:layout_height="55dp"
-            android:background="#C5CAE9"
-            android:text="게시글 작성"
-            android:textSize="30sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btn_save"
-            app:layout_constraintHorizontal_bias="0.678"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btn_save"
-            android:layout_width="80dp"
-            android:layout_height="78dp"
-            android:layout_gravity="right"
-            android:clickable="true"
-            android:onClick="clickSave"
-            android:src="@drawable/baseline_backup_black_18dp"
-            app:backgroundTint="#9FA8DA"
-            app:fabCustomSize="55dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:maxImageSize="30sp" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="4"
+        android:layout_weight="6"
         android:orientation="horizontal">
 
         <TextView
@@ -56,7 +60,7 @@
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#E3F2FD"
+
             android:gravity="center"
             android:text="제목"
             android:textStyle="bold"
@@ -70,24 +74,16 @@
             android:layout_width="305dp"
             android:layout_height="match_parent"
             android:layout_weight="8"
-            android:background="#E0F7FA"
+            android:background="#ffffff"
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/checkBox"
-            app:layout_constraintTop_toTopOf="parent" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#80DEEA"
-            android:text="공개여부"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
@@ -100,9 +96,9 @@
             android:id="@+id/tv_context"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#49c5cb"
             android:ems="10"
             android:hint="내용을 입력하세요."
+            android:background="#ffffff"
             android:inputType="textPersonName"
             android:singleLine="false" />
 

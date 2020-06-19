@@ -95,6 +95,7 @@ public class HomeActivity extends Activity {
                     try {
                         Intent intent = new Intent(HomeActivity.this, MapActivity.class);
                         startActivity(intent);
+                        startActivity(intent);
                     }catch (Exception e) {e.getMessage();}
                     break;
             }

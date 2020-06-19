@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Dae_MainActivity">
+
+<androidx.drawerlayout.widget.DrawerLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="top"
-    tools:context=".Dae_MainActivity" >
+    tools:openDrawer="start"
+    android:id="@+id/navidraw"
+    tools:ignore="MissingConstraints">
 
 
     <RelativeLayout
@@ -26,13 +36,12 @@
                 android:orientation="horizontal"
                 android:layout_alignParentBottom="true">
 
-                <Button
+                <!--<ImageButton
                     android:id="@+id/activity_drawerlayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="검색"
-                    android:textSize="20dp" />
+                    android:src="@drawable/ic_hamburger" />-->
 
                 <EditText
                     android:id="@+id/search_main_area_text"
@@ -41,20 +50,30 @@
                     android:layout_margin="8dp"
                     android:background="#F0F8FF"
                     android:layout_weight="1"
-                    android:hint="지역으로 검색(부산, 김해, 창원)"
+                    android:hint="지역으로 검색"
                     android:textSize="20dp" />
 
-                <Button
+                <ImageButton
                     android:id="@+id/search_main_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:text="검색"
-                    android:textSize="20dp" />
+                    android:src="@drawable/ic_baseline_search_24"
+                    android:background="@android:color/transparent"
+                    />
 
+                <ImageButton
+                    android:id="@+id/search_map_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_baseline_not_listed_location_24"
+                    android:backgroundTint="@android:color/transparent"
+                    />
             </LinearLayout>
 
         </androidx.appcompat.widget.Toolbar>
+
 
         <view
             android:id="@+id/viewpager"
@@ -76,37 +95,27 @@
 
         </androidx.recyclerview.widget.RecyclerView>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/gosichangbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/godrawerbutton1"
-            android:layout_alignParentBottom="true"
-            android:backgroundTint="#00aaaa"
-            android:src="@drawable/ic_person"
-            android:layout_margin="8dp"
-            />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/godrawerbutton1"
+            android:id="@+id/refresh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@+id/writebutton1"
+            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:src="@drawable/ic_baseline_refresh_24"
             android:layout_margin="8dp"
             />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/writebutton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:backgroundTint="#00bbff"
-            android:src="@drawable/ic_edit"
-            android:layout_margin="8dp"
-            />
-
     </RelativeLayout>
-</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/navi_header"
+        app:menu="@menu/navi_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

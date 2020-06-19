@@ -659,9 +659,10 @@ color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
 color abc_btn_colored_text_material
 color abc_color_highlight_material
+color abc_decor_view_status_guard
+color abc_decor_view_status_guard_light
 color abc_hint_foreground_material_dark
 color abc_hint_foreground_material_light
-color abc_input_method_navigation_guard
 color abc_primary_text_disable_only_material_dark
 color abc_primary_text_disable_only_material_light
 color abc_primary_text_material_dark
@@ -680,6 +681,8 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color androidx_core_ripple_material_light
+color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -733,6 +736,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -882,6 +886,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1027,6 +1033,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen wide_size
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1125,6 +1132,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable close
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1152,12 +1160,17 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_close_24
 drawable ic_baseline_more_vert_24
+drawable ic_baseline_not_listed_location_24
 drawable ic_baseline_refresh_24
+drawable ic_baseline_save_alt_24
+drawable ic_baseline_search_24
 drawable ic_edit
 drawable ic_hamburger
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1234,6 +1247,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id ToolBar
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1294,11 +1308,13 @@ id alertTitle
 id all
 id always
 id array_list
+id askWrite
 id async
 id auto
 id barrier
 id beginning
 id blocking
+id boardWrite
 id bottom
 id btn_save
 id btn_send
@@ -1313,12 +1329,12 @@ id center_horizontal
 id center_vertical
 id chains
 id changebtn
-id checkBox
 id checkbox
 id checked
 id chronometer
 id clip_horizontal
 id clip_vertical
+id close_drawer
 id collapseActionView
 id container
 id content
@@ -1357,11 +1373,10 @@ id first_area
 id fixed
 id forever
 id ghost_view
-id godrawerbutton1
 id gone
-id gosichangbutton
 id group_divider
 id groups
+id headerName1
 id home
 id homeAsUp
 id homelistView
@@ -1370,6 +1385,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id inputbirth
 id inputbirth1
@@ -1407,6 +1423,7 @@ id linearLayout3
 id listMode
 id list_item
 id loginBtn
+id logout
 id mail_content
 id main_ImageView
 id main_LinearLayout
@@ -1423,6 +1440,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_view
 id navermap_bar
 id navermap_compass
 id navermap_compass_icon
@@ -1450,6 +1468,7 @@ id navermap_zero
 id navermap_zoom_control
 id navermap_zoom_in
 id navermap_zoom_out
+id navidraw
 id navigation_header_container
 id never
 id none
@@ -1470,6 +1489,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id refresh
 id reportbtn
 id right
 id right_icon
@@ -1488,10 +1508,12 @@ id search_bar
 id search_button
 id search_close_btn
 id search_edit_frame
+id search_farm
 id search_go_btn
 id search_mag_icon
 id search_main_area_text
 id search_main_button
+id search_map_button
 id search_plate
 id search_src_text
 id search_voice_btn
@@ -1568,6 +1590,9 @@ id useLogo
 id userId
 id userPwd
 id view_offset_helper
+id view_tree_lifecycle_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
 id viewpager
 id visible
 id weekend_or_weekday
@@ -1579,7 +1604,6 @@ id wrap_content
 id write_contents_text
 id write_title_text
 id write_upload_button
-id writebutton1
 id writerbtn1
 id writethreadbtn
 integer abc_config_activityDefaultDur
@@ -1678,6 +1702,7 @@ layout navermap_map_view
 layout navermap_open_source_license_activity
 layout navermap_scale_bar_view
 layout navermap_zoom_control_view
+layout navi_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1698,6 +1723,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout slider
 layout support_simple_spinner_dropdown_item
+menu navi_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -2131,6 +2157,7 @@ style Theme_AppCompat_Dialog
 style Theme_AppCompat_Dialog_Alert
 style Theme_AppCompat_Dialog_MinWidth
 style Theme_AppCompat_DialogWhenLarge
+style Theme_AppCompat_Empty
 style Theme_AppCompat_Light
 style Theme_AppCompat_Light_DarkActionBar
 style Theme_AppCompat_Light_Dialog

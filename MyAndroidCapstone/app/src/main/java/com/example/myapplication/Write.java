@@ -29,9 +29,8 @@ public class Write extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_write);
-        Intent intent = getIntent();
-        id=intent.getStringExtra("id");
-        Log.d("글쓰기 페이지 인텐트 값 체크",intent.getExtras().getString("id"));
+
+
 
     }
     public void clickSave(View view){
@@ -47,7 +46,7 @@ public class Write extends Activity {
         String filetercheck="";
         String filtertest="";
         WriteConn task = new WriteConn();
-
+        id=MainActivity.id;
         try {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             for(int i=0;i<word.length;i++){

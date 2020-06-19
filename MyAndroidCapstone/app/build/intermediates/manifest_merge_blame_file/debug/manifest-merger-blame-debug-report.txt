@@ -39,7 +39,7 @@
 24        android:allowBackup="true"
 24-->C:\team\MyAndroidCapstone\app\src\main\AndroidManifest.xml:8:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.1.0] C:\Users\qwer7\.gradle\caches\transforms-2\files-2.1\130f40789f3addc98db185e1dbe16726\core-1.1.0\AndroidManifest.xml:24:18-86
+25-->[androidx.core:core:1.4.0-alpha01] C:\Users\qwer7\.gradle\caches\transforms-2\files-2.1\efec07039f38f4096bf0ad5b4fa5a2f7\core-1.4.0-alpha01\AndroidManifest.xml:24:18-86
 26        android:debuggable="true"
 27        android:extractNativeLibs="false"
 28        android:icon="@mipmap/ic_launcher"
