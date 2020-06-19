@@ -730,6 +730,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color edit
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1161,8 +1162,12 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_close_24
+drawable ic_baseline_create_24
 drawable ic_baseline_more_vert_24
 drawable ic_baseline_not_listed_location_24
+drawable ic_baseline_place_24
+drawable ic_baseline_power_settings_new_24
+drawable ic_baseline_question_answer_24
 drawable ic_baseline_refresh_24
 drawable ic_baseline_save_alt_24
 drawable ic_baseline_search_24
@@ -1321,7 +1326,6 @@ id btn_send
 id button
 id button2
 id button3
-id button4
 id buttonPanel
 id cancel_action
 id center
@@ -1369,6 +1373,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id findbutton
+id findtoolbar
 id first_area
 id fixed
 id forever
@@ -1558,7 +1563,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
-id textView16
 id textView17
 id textView2
 id textView3
@@ -1601,6 +1605,7 @@ id withText
 id work_list
 id wrap
 id wrap_content
+id write_ToolBar
 id write_contents_text
 id write_title_text
 id write_upload_button

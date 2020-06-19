@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     SHA256 sha256;
 
     //학교 와이파이는 3306 포트가 막혀있다고합니다
-    static final String ip ="192.168.43.147"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
+    static final String ip ="192.168.0.103"; // cmd에서 ipconfig로 나온 자신의 ip를 넣어야함 클라우드에 tomcat 올리는중..
     static final String inputurl=":8080/mycap_team/index.jsp";
     static String id;
     @Override

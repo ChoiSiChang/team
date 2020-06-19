@@ -5,12 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffbebe"
+    android:background="@color/colorPrimary"
     tools:context=".WriteActivity">
 
+    <EditText
+        android:id="@+id/write_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="제목"
+        android:background="@color/edit"
+        android:textSize="24sp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
         android:orientation="horizontal">
 
         <Spinner
@@ -34,26 +47,27 @@
 
 
 
-
-    <EditText
-        android:id="@+id/write_title_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="title"
-        android:textSize="24sp"/>
-
     <EditText
         android:id="@+id/write_contents_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
+        android:background="@color/edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:textSize="18sp"
-        android:hint="Contents"/>
+        android:hint="내용"/>
 
 
     <Button
         android:id="@+id/write_upload_button"
-        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorPrimaryDark"
         android:layout_height="wrap_content"
-        android:text="글 작성"/>
+        android:text="작성 완료"/>
 
 </LinearLayout>

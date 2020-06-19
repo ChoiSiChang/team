@@ -36,12 +36,6 @@
                 android:orientation="horizontal"
                 android:layout_alignParentBottom="true">
 
-                <!--<ImageButton
-                    android:id="@+id/activity_drawerlayout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:src="@drawable/ic_hamburger" />-->
 
                 <EditText
                     android:id="@+id/search_main_area_text"
@@ -67,7 +61,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
-                    android:src="@drawable/ic_baseline_not_listed_location_24"
+                    android:src="@drawable/ic_baseline_place_24"
                     android:backgroundTint="@android:color/transparent"
                     />
             </LinearLayout>
@@ -103,6 +97,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:src="@drawable/ic_baseline_refresh_24"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:layout_margin="8dp"
             />
 

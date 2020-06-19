@@ -106,8 +106,9 @@ public class Dae_MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(id == R.id.search_farm){ // 현재위치 주변 농장 검색
-                    Intent intent = new Intent(Dae_MainActivity.this, MapActivity.class);
+                    Intent intent = new Intent(Dae_MainActivity.this, MapSearchActivity.class);
                     startActivity(intent);
+
                 }
                 else if(id == R.id.askWrite){//건의하기
                     Intent intent = new Intent(Dae_MainActivity.this, Write.class);
@@ -167,7 +168,7 @@ public class Dae_MainActivity extends AppCompatActivity {
         mMainSearchMapButton.setOnClickListener(new ImageButton.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dae_MainActivity.this, MapSearchActivity.class);
+                Intent intent = new Intent(Dae_MainActivity.this, MapActivity.class);
                 startActivity(intent);
             }
         });

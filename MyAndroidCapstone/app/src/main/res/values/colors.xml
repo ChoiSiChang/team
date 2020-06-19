@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#ff9999</color>
     <color name="colorAccent">#ff9999</color>
     <color name="shadow">#ffbebe</color>
+    <color name="edit">#F0F8FF</color>
 </resources>
